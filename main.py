@@ -21,9 +21,7 @@ The output file also contains metadata:
 3. The user/owner that executed the command.
 4. The hostname that the command was executed on.
 
-Usage:
-- Run the script by passing the folder name as an argument:
-  python combine_synonyms.py <folder_name> <output_file>
+Additionally, the file contains a note warning that the combined synonyms list should be reviewed by a human to ensure the accuracy of the merged synonyms.
 """
 
 
@@ -110,6 +108,17 @@ def write_combined_synonyms(output_file, combined_synonyms, file_paths):
         f.write("# The lines are automatically deduplicated and sorted for clarity and performance.\n")
         f.write("# Example:\n")
         f.write("# car, automobile, vehicle, auto\n\n")
+
+        # Add warning about human review and possible errors
+        f.write("# IMPORTANT: This combined synonym file should be reviewed by a human to ensure accuracy.\n")
+        f.write("# Automatic merging of synonyms can sometimes lead to erroneous or misleading synonym sets.\n")
+        f.write("# For example, if one file contains:\n")
+        f.write("#   bank, financial institution\n")
+        f.write("# and another file contains:\n")
+        f.write("#   bank, riverbank\n")
+        f.write("# The resulting merged line might be:\n")
+        f.write("#   bank, financial institution, riverbank\n")
+        f.write("# which could lead to confusion in search results. Review these cases carefully.\n\n")
 
         # Write metadata
         f.write(f"# Files combined:\n")

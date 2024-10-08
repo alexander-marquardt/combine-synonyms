@@ -5,12 +5,22 @@
 # Example:
 # car, automobile, vehicle, auto
 
+# IMPORTANT: This combined synonym file should be reviewed by a human to ensure accuracy.
+# Automatic merging of synonyms can sometimes lead to erroneous or misleading synonym sets.
+# For example, if one file contains:
+#   bank, financial institution
+# and another file contains:
+#   bank, riverbank
+# The resulting merged line might be:
+#   bank, financial institution, riverbank
+# which could lead to confusion in search results. Review these cases carefully.
+
 # Files combined:
 # - realistic_synonym_files/electric.txt
 # - realistic_synonym_files/human-resources.txt
 # - realistic_synonym_files/project-management.txt
 
-# Timestamp: 2024-10-08 12:23:22
+# Timestamp: 2024-10-08 12:43:34
 # User: arm
 # Hostname: Alexs-MBP-2.lan
 
@@ -35,7 +45,6 @@ D&I metrics, diversity metrics, diversity ratio, equal opportunity statistics, i
 D&I, affirmative action, diversity and inclusion, equal opportunity, workplace diversity
 DMAIC, Six Sigma, Six Sigma methodology, continuous improvement process, defect reduction
 DSO, distribution grid operator, distribution system operator, utility operator
-E.ON, EON, electric company, energy company, energy supplier, utility
 EAP, employee assistance, employee assistance program, employee support, workplace support
 EEX, European Energy Exchange, energy trading platform, power market exchange
 EPC, engineering procurement and construction, plant construction, project development
@@ -229,6 +238,7 @@ document archiving, final documentation storage, project archive, project data s
 earth energy, geothermal energy, geothermal power, thermal energy from the earth
 eco-friendly practices, green development, sustainability, sustainable development
 eco-friendly, ecological impact, environmental footprint, environmental impact, green impact
+electric company, energy company, energy supplier, utility
 electric potential, electromotive force, potential difference, voltage, voltage level
 electrical insulator, high-voltage insulator, insulator, isolator, porcelain insulator
 electrical transformer, transformer, transformer station, transformer substation, voltage transformer
