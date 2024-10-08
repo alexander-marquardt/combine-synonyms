@@ -1,0 +1,3 @@
+truck, lorry
+plane, aircraft
+automobile, vehicle, motorcar

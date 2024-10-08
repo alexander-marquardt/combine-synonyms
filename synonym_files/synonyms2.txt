@@ -1,0 +1,3 @@
+automobile, car, auto
+bicycle, cycle, bike
+ship, vessel
