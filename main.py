@@ -5,23 +5,12 @@ import sys
 import datetime
 import getpass
 import socket
+from collections import defaultdict
 
 """
-This Python script combines multiple synonym files from a specified directory into a single output file. 
-
-What it does:
-1. Reads all `.txt` files in a given directory that contain synonym sets. Each line in these files is a comma-separated list of synonyms.
-2. It ensures that synonym sets with overlapping terms (e.g., "car, automobile" and "automobile, vehicle") are merged into a single line.
-3. The program removes duplicate entries and reorders the terms alphabetically within each line for clarity.
-4. It writes the combined, deduplicated synonym sets into a new output file with an introductory header.
-
-The output file also contains metadata:
-1. A listing of the paths to the files that were combined to create the output file.
-2. The timestamp of when it was created.
-3. The user/owner that executed the command.
-4. The hostname that the command was executed on.
-
-Additionally, the file contains a note warning that the combined synonyms list should be reviewed by a human to ensure the accuracy of the merged synonyms.
+This Python script combines multiple synonym files from a specified directory into a single output file.
+It ensures that each synonym expansion (one-way synonyms) only has one `=>` operator per line, handling self-mapping properly.
+It also ensures that one-way synonyms expand to include themselves, with valid Elasticsearch syntax.
 """
 
 
@@ -30,12 +19,21 @@ def parse_synonym_line(line):
     Parse a synonym line into a set of terms.
     This ensures we can compare synonym lines regardless of term order.
     """
-    return set(term.strip() for term in line.split(","))
+    if "=>" in line:
+        # Handle one-way expansion: left-hand side (term) => right-hand side (synonyms)
+        left, right = line.split("=>")
+        left_term = left.strip()
+        right_terms = [term.strip() for term in right.split(",")]
+        return left_term, set(right_terms)
+    else:
+        # Handle two-way expansion: comma-separated list of synonyms
+        return None, set(term.strip() for term in line.split(","))
 
 
-def merge_synonym_sets(existing_synonyms, new_synonym_set):
+def merge_synonym_sets(existing_synonyms, new_synonym_set, synonym_map, left_term=None):
     """
     Merges any existing synonym sets that have overlap with the new synonym set.
+    Also populates synonym_map for potential one-way detection.
     """
     to_merge = []
 
@@ -52,16 +50,23 @@ def merge_synonym_sets(existing_synonyms, new_synonym_set):
     # Add the newly merged set to the collection
     existing_synonyms.append(new_synonym_set)
 
+    # Track synonym mapping for one-way detection, especially for left-hand side of "=>"
+    if left_term:
+        synonym_map[left_term].update(new_synonym_set)
+    else:
+        for term in new_synonym_set:
+            synonym_map[term].update(new_synonym_set)
+
 
 def combine_synonym_files_in_directory(directory):
     """
     Combine all synonym files in the specified directory into one, removing duplicates and appending new synonyms.
-
     :param directory: Directory containing synonym files.
     :return: A list of combined synonym lines, and a list of file paths that were combined.
     """
     combined_synonyms = []
     file_paths = []
+    synonym_map = defaultdict(set)  # Keeps track of all synonyms for potential one-way detection
 
     # Scan directory for all .txt files
     for filename in os.listdir(directory):
@@ -77,21 +82,43 @@ def combine_synonym_files_in_directory(directory):
                         # Ignore empty lines and comments
                         continue
 
-                    new_synonym_set = parse_synonym_line(line)
-                    merge_synonym_sets(combined_synonyms, new_synonym_set)
+                    left_term, new_synonym_set = parse_synonym_line(line)
+                    merge_synonym_sets(combined_synonyms, new_synonym_set, synonym_map, left_term)
 
     # Convert sets back into sorted comma-separated lines
     combined_synonym_lines = [", ".join(sorted(synonym_set)) for synonym_set in combined_synonyms]
-    return combined_synonym_lines, file_paths
+    return combined_synonym_lines, file_paths, synonym_map
 
 
-def write_combined_synonyms(output_file, combined_synonyms, file_paths):
+def detect_one_way_synonyms(synonym_map):
     """
-    Write the combined synonym list to a new file with an introductory header and metadata.
+    Detect potential one-way (unidirectional) synonyms where a term has ambiguous meanings.
+    Returns a list of one-way rules.
+    Ensures that each term is expanded to itself and other synonyms with valid syntax.
+    """
+    one_way_synonyms = []
+
+    for term, synonyms in synonym_map.items():
+        expanded_synonyms = sorted(synonyms - {term})  # Remove the term itself from the list
+        if expanded_synonyms:
+            # Add the term back and expand it to all synonyms
+            one_way_synonyms.append(f"{term} => {term}, {', '.join(expanded_synonyms)}")
+        else:
+            # If no synonyms are found, keep the term mapping to itself (self-mapping)
+            one_way_synonyms.append(f"{term} => {term}")
+
+    return one_way_synonyms
+
+
+def write_combined_synonyms(output_file, combined_synonyms, file_paths, one_way_synonyms):
+    """
+    Write the combined synonym list to a new file with an introductory header, metadata, and one-way synonym rules.
+    Each one-way synonym is written on a separate line to ensure correct Elasticsearch handling.
 
     :param output_file: Output file path.
     :param combined_synonyms: List of combined synonym lines.
     :param file_paths: List of paths of the files that were combined.
+    :param one_way_synonyms: List of one-way synonym rules.
     """
     # Get metadata: timestamp, user, and hostname
     timestamp = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
@@ -107,18 +134,11 @@ def write_combined_synonyms(output_file, combined_synonyms, file_paths):
             "# Each line contains synonyms, separated by commas, which can be used in Elasticsearch or other search systems.\n")
         f.write("# The lines are automatically deduplicated and sorted for clarity and performance.\n")
         f.write("# Example:\n")
-        f.write("# car, automobile, vehicle, auto\n\n")
+        f.write("# power plant => power plant, power station, generating station, generation facility\n\n")
 
         # Add warning about human review and possible errors
         f.write("# IMPORTANT: This combined synonym file should be reviewed by a human to ensure accuracy.\n")
-        f.write("# Automatic merging of synonyms can sometimes lead to erroneous or misleading synonym sets.\n")
-        f.write("# For example, if one file contains:\n")
-        f.write("#   bank, financial institution\n")
-        f.write("# and another file contains:\n")
-        f.write("#   bank, riverbank\n")
-        f.write("# The resulting merged line might be:\n")
-        f.write("#   bank, financial institution, riverbank\n")
-        f.write("# which could lead to confusion in search results. Review these cases carefully.\n\n")
+        f.write("# One-way synonyms are written on separate lines to ensure correct handling in Elasticsearch.\n\n")
 
         # Write metadata
         f.write(f"# Files combined:\n")
@@ -128,7 +148,15 @@ def write_combined_synonyms(output_file, combined_synonyms, file_paths):
         f.write(f"# User: {user}\n")
         f.write(f"# Hostname: {hostname}\n\n")
 
+        # Write one-way synonym rules
+        if one_way_synonyms:
+            f.write("# One-way synonym rules detected:\n")
+            for expansion in one_way_synonyms:
+                f.write(f"{expansion}\n")
+            f.write("\n")
+
         # Write the combined synonym lines
+        f.write("# Standard synonyms:\n")
         for line in sorted(combined_synonyms):
             f.write(line + '\n')
 
@@ -151,8 +179,13 @@ def main():
         print(f"Error: Directory '{directory}' does not exist.")
         sys.exit(1)
 
-    combined_synonyms, file_paths = combine_synonym_files_in_directory(directory)
-    write_combined_synonyms(output_file, combined_synonyms, file_paths)
+    combined_synonyms, file_paths, synonym_map = combine_synonym_files_in_directory(directory)
+
+    # Detect potential one-way synonyms
+    one_way_synonyms = detect_one_way_synonyms(synonym_map)
+
+    # Write the combined synonym file
+    write_combined_synonyms(output_file, combined_synonyms, file_paths, one_way_synonyms)
     print(f"Combined synonyms written to {output_file}")
 
 
