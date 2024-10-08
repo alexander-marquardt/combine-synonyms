@@ -5,8 +5,290 @@
 # Example:
 # car, automobile, vehicle, auto
 
-aircraft, plane
-auto, automobile, car, motorcar, vehicle
-bicycle, bike, cycle
-boat, ship, vessel
-lorry, truck
+# Files combined:
+# - realistic_synonym_files/electric.txt
+# - realistic_synonym_files/human-resources.txt
+# - realistic_synonym_files/project-management.txt
+
+# Timestamp: 2024-10-08 12:23:22
+# User: arm
+# Hostname: Alexs-MBP-2.lan
+
+360-degree feedback, multi-source feedback, peer feedback, self-assessment, team evaluation
+401(k), pension contributions, pension plan, retirement plan, retirement savings
+AC drive, VFD, frequency converter, frequency inverter, variable frequency drive
+AC resistance, complex resistance, electrical impedance, electrical resistance, impedance, opposition to current, resistance, resistivity
+AMI, AMI grid, advanced metering infrastructure, intelligent grid, metering system, smart grid, smart grid meter
+AVR, automatic voltage regulator, voltage regulator, voltage stabilizer
+BA, business analyst, business consultant, requirements analyst, system analyst
+BESS, ESS, battery energy storage, battery storage, energy storage system
+CBA, ROI analysis, cost-benefit analysis, financial analysis, project value analysis
+CCB, approval board, change authority, change control board, change management board
+CCGT, combined cycle gas turbine, combined cycle plant
+CCPM, critical chain, critical chain project management, critical path buffer management, resource-focused project management
+CO2 capture, carbon capture, carbon sequestration, carbon storage, greenhouse gas removal
+CO2 emissions, GHG emissions, carbon emissions, carbon footprint, greenhouse gas emissions
+CPM, critical path analysis, critical path method, time analysis, time-critical task identification
+CSR, corporate social responsibility, environmental responsibility, social responsibility
+CV, application, curriculum vitae, professional profile, resume
+D&I metrics, diversity metrics, diversity ratio, equal opportunity statistics, inclusion score
+D&I, affirmative action, diversity and inclusion, equal opportunity, workplace diversity
+DMAIC, Six Sigma, Six Sigma methodology, continuous improvement process, defect reduction
+DSO, distribution grid operator, distribution system operator, utility operator
+E.ON, EON, electric company, energy company, energy supplier, utility
+EAP, employee assistance, employee assistance program, employee support, workplace support
+EEX, European Energy Exchange, energy trading platform, power market exchange
+EPC, engineering procurement and construction, plant construction, project development
+ESG, environmental social governance, ethical management, sustainability criteria
+EU ETS, EU carbon trading, European Union Emission Trading System, emission trading market
+EVM, earned value analysis, earned value management, project performance evaluation, value-based budgeting
+FIT, energy buy-back, excess energy compensation, feed-in tariff, grid-tied compensation, net metering, renewable compensation, renewable tariff
+GHG credit, carbon allowance, carbon credit, carbon offset, emission permit
+GHG offset, carbon credits, carbon offsetting, climate mitigation, emission offsets
+GHG, atmospheric emissions, emissions, global warming gases, greenhouse gas
+Gantt chart, WBS, deliverable decomposition, project bar chart, project breakdown, project plan, project roadmap, project schedule, project timeline, schedule visualization, task breakdown, time plan, time projection, timeline, timeline chart, work breakdown structure
+HR KPIs, HR analytics, HR metrics, data-driven HR, human capital metrics, key HR metrics, people analytics, predictive HR, workforce analytics, workforce metrics
+HR audits, compliance checks, labor law audits, legal audits, regulatory audits
+HR automation, HR digitalization, HR tech tools, HR workflows, automated HR processes
+HR business partner, HRBP, business partner model, operational HR, strategic HR
+HR dashboard, HR data visualization, HR reports, employee data dashboard, workforce reports
+HR documentation, contract management, employee contracts, employment agreements, legal agreements, procurement management, supplier management, vendor management
+HR forecasting, future workforce planning, long-term staffing, strategic workforce planning, talent planning
+HR innovation, HR transformation, agile HR, digital HR, next-gen HR
+HR investigations, disciplinary process, employee misconduct, grievance investigations, workplace investigations
+HR legal requirements, compliance, electricity regulation, employment law, energy regulation, labor law compliance, policy, power regulation, regulation, utility oversight, workplace regulations
+HR management, career pathing, career progression, cross-training, employee lifecycle management, employee loyalty, employee retention, human capital management, leadership pipeline, reskilling, role advancement, skill enhancement, staff retention, succession planning, talent development, talent management, talent pipeline, talent retention, upskilling, workforce management, workforce stability
+HR online platform, HR portal, employee portal, employee self-service, self-service tools
+HR policies, behavior guidelines, code of conduct, company code, company guidelines, company handbook, company policies, corporate ethics, employee handbook, employment policies, ethical guidelines, ethics policy, human resources policies, human resources rules, policy manual, staff manual, workplace ethics, workplace handbook, workplace policies, workplace rules
+HR records, digital records, document management, employee files, personnel files
+HR software, HR technology, HRIS, employee database, human resources information system
+HR strategy, headcount planning, human capital planning, human resources strategy, staffing strategy, talent forecasting, talent strategy, workforce forecasting, workforce planning, workforce strategy
+HV lines, electrical transmission lines, high-voltage lines, power lines, transmission lines
+HV transformer, distribution transformer, high-voltage transformer, power transformer, step-down transformer, step-up transformer, voltage regulator transformer
+HVAC, climate control system, heating ventilation and air conditioning, temperature regulation system
+Hz, alternating current frequency, cycle per second, frequency, hertz
+IPP, independent power producer, non-utility generator, private power producer
+KPIs, achievement goals, goal setting, key performance indicators, measurable outcomes, objectives, performance KPIs, performance benchmarks, performance metrics, productivity metrics, target setting
+Kanban, Kanban board, Kanban process, agile board, continuous workflow, efficiency-focused management, just-in-time methodology, lean methodology, lean process, lean project management, project task board, scrum board, sprint board, task board, task flow board, task workflow, visual task board, visual workflow, waste reduction in projects, workflow board
+L&D, employee training, learning and development, skills development, staff training
+LED lighting, efficient lighting, energy-saving lights, low-energy lighting
+LEED-certified building, eco-friendly building, energy-efficient building, green building, sustainable building
+O&M, asset maintenance, operation and maintenance, plant operation
+OSHA compliance, employee safety, health and safety, occupational safety, workplace safety
+PERT chart, flowchart, network diagram, program evaluation review technique, project network
+PIP, corrective action plan, employee development plan, performance correction, performance improvement plan
+PLC, automation controller, industrial controller, programmable logic controller
+PM, monitoring, project administration, project control, project coordination, project coordinator, project head, project leader, project management, project manager, project oversight, project performance tracking, tracking
+PMBOK, PMI guide, PMI methodology, project management body of knowledge, project management standard
+PO, customer liaison, customer representative, product lead, product manager, product owner
+PPA, corporate PPA, electricity contract, energy contract, power purchase agreement, renewable PPA
+PPE, electrical safety, personal protective equipment, safety procedures, worker safety
+PRINCE2, PRINCE2 methodology, controlled project management, projects in controlled environments, structured project management
+PTO policy, absence policy, attendance policy, sick leave policy, time-off policy
+PTO, leave benefits, paid time off, parental leave, sick leave, vacation days
+PV energy, photovoltaic power, solar energy, solar power
+PV plant, photovoltaic plant, solar array, solar farm
+QA, QC, quality assurance, quality control, quality management
+RACI chart, RACI matrix, responsibility matrix, roles and responsibilities matrix, task assignment matrix
+REC, energy credit, green certificate, renewable energy certificate, sustainability certificate
+RECs, green certificates, renewable energy credits, sustainability credits
+RTU, data acquisition unit, remote terminal unit, telemetry unit
+SCADA, SCADA system, supervisory control and data acquisition
+TSO, grid operator, transmission operator, transmission system operator
+VAR, imaginary power, reactive load, reactive power, volt-ampere reactive
+absence rate, absenteeism rate, employee attendance, leave management, sick leave rate
+accelerated scheduling, crashing, fast tracking, schedule crashing, time compression
+acceptable risk, risk acceptance, risk appetite, risk threshold, risk tolerance
+achievement bonuses, bonuses, employee bonuses, incentive bonuses, incentive programs, merit awards, performance bonuses, performance incentives, recognition rewards
+achievement rewards, bonus structure, incentive compensation, merit-based pay, performance-based pay
+active power, actual power, real power, true power, useful power
+activity, assignment, project task, task, work item
+adaptive project management, agile, agile framework, agile iteration, agile methodology, agile scrum, agile sprint, agile timebox, iterative project management, scrum, scrum framework, scrum methodology, scrum sprint, scrum team, sprint, sprint cycle, time frame, time-bound activity, time-limited task, timebox
+addiction counseling, employee rehabilitation, employee wellness program, post-injury support, recovery programs, recovery support, reintegration programs, return to work programs, substance abuse support
+admittance, conductance, conductivity, electrical conductance, electrical conductivity
+aeolic energy, wind energy, wind power, wind-generated electricity
+agile coach, agile coordinator, agile facilitator, scrum coordinator, scrum facilitator, scrum master, sprint coordinator, sprint master
+agile manifesto, agile principles, agile values, flexibility in projects, iterative approach
+agile planning, backlog, product backlog, sprint backlog, sprint planning, sprint preparation, sprint setup, task backlog, work items backlog
+agile retrospective, final evaluation, lessons learned, post-mortem analysis, post-project review, project reflection, sprint feedback session, sprint retrospective, sprint review
+agile story, backlog item, feature request, product requirement, user story
+alternative energy, clean energy, green energy, renewable energy, sustainable energy
+alternator, dynamo, generator, rotor, turbine
+amperage, current, current flow, current intensity, electric current
+ancillary services market, balancing market, capacity market, reserve market
+annual review, mid-year review, performance check-in, progress evaluation, quarterly review
+anonymous feedback, employee feedback line, employee hotline, grievance line, support hotline
+anti-bullying, anti-discrimination, anti-harassment, inclusive workplace, workplace equality
+anti-harassment policy, bullying policy, discrimination policy, sexual harassment policy, workplace harassment policy
+appearance standards, dress code, employee attire policy, uniform policy, workplace dress code
+applicant tracking system (ATS), hiring software, job applicant system, recruitment system, talent management system
+applicant tracking, candidate database, candidate sourcing, recruitment pipeline, talent pool
+applicant, candidate, interviewee, job seeker, potential hire
+appraisals, employee performance, job performance, performance evaluation, performance management
+arc flash, electrical fault, equipment failure, overload, short circuit
+assessment, evaluation, interview, job interview, screening
+atomic energy facility, atomic plant, nuclear plant, nuclear power station
+attendance management, employee time management, shift scheduling, time tracking, timekeeping
+attrition rate, employee departure, employee quitting, employee resignation, employee turnover, employee turnover rate, involuntary turnover, retention rate, staff retention rate, staff turnover, voluntary resignation, voluntary turnover
+backup plan, contingency plan, emergency plan, fallback strategy, risk response plan
+backup system, contingency system, emergency backup, failover system, redundancy
+benefits, benefits program, compensation package, employee benefits, perks
+bioenergy, biomass energy, biopower, organic energy generation
+biomass generation station, biomass plant, biopower plant
+blackout, brownout, fault, outage, power failure, service interruption
+budget allocation, budget distribution, cost allocation, financial distribution, resource budgeting
+budget baseline, financial baseline, initial budget, planned budget, project budget limit
+budget control, cost containment, cost control, cost management, project expense management
+budget deviation, cost overrun, cost variance, financial variance, under-budgeting
+budget forecasting, budget plan, cost calculation, cost estimation, cost prediction, financial estimation, project budget, project costs, project financial plan
+building insulation, cold air retention, energy-efficient insulation, heat retention, thermal insulation
+building performance, energy consumption rating, energy efficiency rating, energy performance
+building upgrade, efficiency upgrade, energy renovation, energy retrofit, retrofit
+business owner, business sponsor, client, executive sponsor, project sponsor, project stakeholder, senior stakeholder, sponsor, stakeholder
+business structure, company hierarchy, organizational chart, organizational design, organizational structure
+business transformation, change control, change implementation, change initiatives, change management, change process, organizational change, project change, transformation management
+capability building, efficiency enhancement, performance improvement, process improvement, productivity improvement
+capacitance, capacitive reactance, coil inductance, electrical capacitance, inductance, inductive reactance, magnetic inductance, opposition to current change, reactance, storage capacity
+capacitor, condenser, electric capacitor, energy storage capacitor
+capacity auction, capacity bidding, capacity trading, power capacity auction
+capacity factor, efficiency ratio, load factor, power efficiency, power factor
+capex, capital expenditure, project capital, project investment, upfront project costs
+carbon neutrality, carbon-free, climate-neutral, net-zero, zero emissions
+carbon reduction, decarbonization, fossil fuel phase-out, low-carbon, zero-emission
+career advice, career counseling, development support, job coaching, professional development
+career development, development program, educational initiatives, professional growth, training program
+career guidance, coaching, mentoring program, mentorship, professional mentorship
+change approval, change authorization, change endorsement, modification approval, project modification sign-off
+change documentation, change log, change register, modification log, project change log
+change freeze, change lock, modification halt, project freeze, scope freeze
+change impact, consequences analysis, effect on project, impact analysis, issue avoidance, risk analysis, risk assessment, risk avoidance, risk control, risk elimination, risk evaluation, risk handling, risk identification, risk management, risk mitigation, risk monitoring, risk prevention, risk ranking, risk reduction, threat elimination, threat minimization
+change order, change request, modification request, project adjustment, scope change
+change tracking, document version control, project versioning, revision management, version control
+childcare support, dependent care assistance, family leave, family support programs, parental support
+circuit breaker, disconnect switch, electrical switch, power switch, switchgear
+client communication, stakeholder engagement, stakeholder involvement, stakeholder management, stakeholder relations
+client feedback, completion feedback, project evaluation feedback, project feedback, stakeholder feedback
+client handoff, project closeout, project delivery, project handover, project transfer
+client presentation, executive summary, project briefing, project presentation, stakeholder presentation
+climate change, climate crisis, climate emergency, environmental crisis, global warming
+closeout meeting, closure session, completion meeting, final meeting, project conclusion, project debrief, project wrap-up, project wrap-up meeting, team debrief
+closing, finalization, project closure, project completion, project ending, project finalization, project wind-up, wrap-up phase
+closure report, completion report, final documentation, final report, progress report, project reporting, project summary, project update, status report
+coal plant, coal-fired power station, fossil fuel plant, thermal power station
+collaboration, group activities, staff bonding, team building, team cohesion
+collective bargaining, labor relations, union negotiations, union relations, worker representation
+communication channel, communication platform, communication route, information pathway, message medium
+communication feedback, continuous feedback, feedback loop, information loop, reporting feedback
+communication framework, communication matrix, contact matrix, information dissemination, project communication framework
+communication management, communication plan, communication strategy, information sharing, project communication, stakeholder communication
+company perks, employee rewards, fringe benefits, non-cash benefits, work-life benefits
+company reputation, employer branding, employer of choice, recruitment marketing, talent attraction
+company stock plan, equity compensation, profit-sharing, share-based compensation, stock options
+company values, corporate culture, organizational culture, work environment, workplace culture
+compensation management, payroll automation, payroll software, payroll system, payroll tracking
+compensation, earnings, employee compensation, salary, wages
+competitive energy market, deregulated market, electricity market, energy market, power market
+complaint process, conflict management, employee grievance, grievance procedure, workplace dispute resolution
+completion review, final assessment, post-project assessment, project evaluation, project review
+concern, issue, obstacle, problem, project issue
+conductor lines, electrical cables, high-voltage cables, power cables, transmission cables
+confidentiality policy, data privacy policy, employee privacy, non-disclosure agreement (NDA), personal information protection
+config management, configuration control, configuration management, system configuration, version management
+conflict resolution, dispute resolution, employee counseling, grievance management, mediation
+consequence of risk, effect of risk, project disruption, risk impact, severity of impact
+consumption audit, energy assessment, energy audit, energy efficiency evaluation
+consumption forecast, demand forecast, energy forecast, load forecast, load projection
+consumption tracking, electricity monitoring, energy monitoring, load monitoring, power monitoring
+contributor, human resource, material resource, project associate, project participant, project resource, project team member, resource, team member
+control room, distribution center, load center, power distribution unit
+controlled outage, demand management, demand response, emergency load reduction, load management, load shedding, peak shaving, power rationing, rolling blackout
+corrective action, disciplinary procedures, employee discipline, misconduct process, warning process
+cost efficiency, cost per hire, hiring expenses, recruitment cost, talent acquisition cost
+counseling services, emotional well-being, employee wellness, fitness incentives, mental health support, psychological assistance, wellness program, wellness support, workplace wellness
+crisis management, critical incident response, emergency assistance, employee crisis support, trauma support
+current law, electrical law, ohms law, resistance law, voltage law
+current spike, electrical surge, power surge, transient surge, voltage surge
+daily huddle, daily scrum, daily standup, scrum meeting, team check-in
+deadline, due date, project development phase, project end date, project lifecycle, project milestone, project phase, project stage, target date
+decarbonization goal, green energy target, renewable energy target, sustainable energy goal
+delay in timeline, lag, lead time, schedule lag, time delay
+deliverable, output, product deliverable, project output, project result
+delivery, execution, execution phase, implementation, project execution
+demand-side management, energy conservation, energy efficiency, energy reduction, energy saving
+departure feedback, exit interview, offboarding, resignation interview, termination interview
+development portal, digital learning, e-learning, e-learning system, learning management system (LMS), online training, online training tools, training platform, virtual learning
+development workshops, educational events, employee workshops, seminars, training sessions
+dielectric fluid, insulating oil, transformer insulation, transformer oil
+digital meter, electric meter, energy meter, power meter, smart meter
+discussion records, meeting minutes, meeting records, project minutes, project notes
+distribution feeder, power feeder, primary feeder, secondary feeder, service line
+distribution grid, distribution network, electrical grid, power grid, utility grid
+distribution losses, line losses, power losses, transmission losses
+distribution substation, power substation, substation, switching station, switchyard
+document archiving, final documentation storage, project archive, project data storage, project records
+earth energy, geothermal energy, geothermal power, thermal energy from the earth
+eco-friendly practices, green development, sustainability, sustainable development
+eco-friendly, ecological impact, environmental footprint, environmental impact, green impact
+electric potential, electromotive force, potential difference, voltage, voltage level
+electrical insulator, high-voltage insulator, insulator, isolator, porcelain insulator
+electrical transformer, transformer, transformer station, transformer substation, voltage transformer
+electricity meter, energy consumption meter, kWh meter, kilowatt-hour meter
+electricity trading, energy trading, power trading, retail energy trading, wholesale trading
+employee assessment, performance appraisal, performance review, review process, staff evaluation
+employee awards, employee recognition, recognition program, rewards program, staff appreciation
+employee engagement, employee engagement score, employee feedback, employee satisfaction index, employee survey, engagement survey, job satisfaction, job satisfaction survey, performance feedback, staff input, staff morale, team motivation, workforce engagement
+employee financial support, financial counseling, financial wellness, retirement planning, savings plans
+employee happiness, employee well-being, family-friendly policies, flexible work, job contentment, staff well-being, stress management, work-life balance, workplace satisfaction
+employee healthcare, health benefits, health insurance, medical insurance, wellness plan
+employee loyalty programs, retention bonuses, retention initiatives, retention strategies, staff engagement programs
+employee relations, internal communication, staff relations, team relations, workplace relations
+employee retention plan, engagement programs, loyalty strategy, retention tactics, staff retention efforts
+employee rights, fair treatment, labor rights, worker rights, workplace fairness
+employment, hiring, recruitment, staffing, talent acquisition
+energy shift, energy transition, green transition, sustainable transition
+energy-saving thermostat, programmable thermostat, smart thermostat, temperature control system
+executive coaching, leadership development, leadership skills, management training, supervisor training
+executive search, headhunting, recruitment firm, talent scouting, talent search
+final approval, project acceptance, project approval, project completion sign-off, sign-off
+flexible work policy, hybrid work policy, remote work policy, telecommuting policy, work-from-home policy
+gas turbine plant, gas-fired power station, natural gas plant
+generating station, generation facility, power plant, power station
+geothermal plant, geothermal power plant, geothermal station
+goal, key event, major task completion, milestone, objective, project checkpoint, project marker, target
+green energy source, renewable energy source, renewable resource
+grid code, grid regulation, network code, technical standards, utility regulation
+grid connection, grid coupling, grid interconnection, utility grid connection
+grid reliability, grid stability, network stability, reliability, service dependability, system reliability
+headhunting approach, hiring roadmap, recruitment planning, sourcing strategy, talent acquisition strategy
+hiring efficiency, hiring timeline, recruitment speed, time to fill, time to hire
+hiring trends, recruitment analytics, retention analytics, talent analytics, workforce data
+human resources management, resource allocation, resource distribution, resource management, resource planning
+hydro plant, hydroelectric facility, hydroelectric plant, hydroelectric power station
+hydroelectric energy, hydroelectric power, hydropower, water-generated electricity
+impact-probability matrix, risk assessment matrix, risk chart, risk matrix, risk visualization
+induction, new hire process, onboarding, orientation, welcome process
+job description, job responsibilities, key qualifications, position requirements, role specification
+job opening, job posting, job vacancy, open position, role vacancy
+likelihood of risk, probability of occurrence, risk likelihood, risk probability, threat probability
+linear project management, sequential project management, waterfall methodology, waterfall model
+maintenance, preventive maintenance, routine maintenance, scheduled maintenance, system upkeep
+ocean energy plant, tidal energy plant, tidal power station
+ongoing project costs, operational expenditure, opex, project operational expenses, recurring costs
+overload relay, protection relay, relay, safety relay, thermal relay
+pay management, payroll, payroll administration, salary processing, wages disbursement
+peak load plant, peaker plant, peaking plant, reserve power station
+planning start, project beginning, project initiation, project kickoff, project start
+potential issue, project hazard, project risk, project threat, risk, risk factor, threat, uncertainty
+power-interest grid, stakeholder analysis, stakeholder assessment, stakeholder mapping, stakeholder matrix
+pre-project planning, project blueprint, project design, project planning, project preparation
+progress meeting, project check-in, project review meeting, status meeting, update meeting
+project boundaries, project scope, scope, scope control, scope definition, scope management, scope planning, scope verification, work scope
+project buffer, schedule buffer, schedule padding, slack time, time contingency
+project dashboard, project reporting system, project visualization tools, reporting software, reporting tools
+project drift, scope creep, scope enlargement, scope expansion, uncontrolled change
+project group, project team, project unit, task force, work group
+project risk manager, risk analyst, risk coordinator, risk manager, risk specialist
+project timing, schedule control, schedule management, time allocation, time control, time management, timeline management
+risk documentation, risk list, risk log, risk register, threat register
+sequential task, task dependency, task interdependency, task link, task relationship
+wind energy facility, wind farm, wind park, wind power plant

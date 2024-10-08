@@ -1,0 +1,144 @@
+# General Project Management Terms
+project management, PM, project administration, project coordination, project oversight
+project plan, project roadmap, project timeline, work breakdown structure, WBS
+project phase, project stage, project lifecycle, project development phase, project milestone
+task, activity, work item, project task, assignment
+deliverable, output, project result, product deliverable, project output
+milestone, goal, target, objective, key event
+scope, project scope, work scope, project boundaries, scope definition
+risk, project risk, potential issue, threat, risk factor
+issue, problem, concern, project issue, obstacle
+resource, project resource, human resource, material resource, team member
+stakeholder, project stakeholder, sponsor, client, project sponsor
+
+# Project Roles and Responsibilities
+project manager, PM, project leader, project coordinator, project head
+team member, project team member, contributor, project participant, project associate
+stakeholder, project stakeholder, client, sponsor, business owner
+project sponsor, sponsor, senior stakeholder, business sponsor, executive sponsor
+project team, project group, task force, project unit, work group
+product owner, PO, product lead, product manager, customer representative
+scrum master, agile facilitator, scrum facilitator, sprint master, agile coordinator
+business analyst, BA, requirements analyst, business consultant, system analyst
+risk manager, risk analyst, project risk manager, risk coordinator, risk specialist
+
+# Project Management Processes
+project initiation, project start, project kickoff, project beginning, planning start
+project planning, project blueprint, project design, project preparation, pre-project planning
+execution, project execution, implementation, delivery, execution phase
+monitoring, tracking, project control, project oversight, project performance tracking
+closing, project closure, project completion, finalization, wrap-up phase
+risk management, risk assessment, risk mitigation, risk monitoring, risk control
+scope management, scope definition, scope planning, scope control, scope verification
+quality management, quality control, quality assurance, QA, QC
+communication management, project communication, stakeholder communication, information sharing
+procurement management, vendor management, supplier management, contract management
+schedule management, timeline management, time management, schedule control, time control
+resource management, human resources management, resource allocation, resource planning, resource distribution
+
+# Project Management Tools and Techniques
+Gantt chart, project timeline, project schedule, timeline chart, project bar chart
+PERT chart, program evaluation review technique, network diagram, project network, flowchart
+critical path method, CPM, critical path analysis, time-critical task identification, time analysis
+work breakdown structure, WBS, task breakdown, project breakdown, deliverable decomposition
+Kanban, Kanban board, task board, visual task board, task workflow
+agile board, sprint board, project task board, visual workflow, task flow board
+sprint planning, sprint backlog, sprint preparation, sprint setup, agile planning
+risk matrix, risk assessment matrix, risk chart, impact-probability matrix, risk visualization
+stakeholder analysis, stakeholder mapping, stakeholder matrix, power-interest grid, stakeholder assessment
+RACI chart, responsibility matrix, RACI matrix, roles and responsibilities matrix, task assignment matrix
+
+# Methodologies and Frameworks
+waterfall methodology, linear project management, sequential project management, waterfall model
+agile, agile methodology, iterative project management, adaptive project management, agile framework
+scrum, scrum methodology, agile scrum, scrum framework, agile sprint
+Kanban, lean project management, just-in-time methodology, continuous workflow, Kanban process
+PRINCE2, projects in controlled environments, PRINCE2 methodology, controlled project management, structured project management
+PMBOK, project management body of knowledge, PMI methodology, project management standard, PMI guide
+lean project management, lean methodology, lean process, waste reduction in projects, efficiency-focused management
+Six Sigma, DMAIC, continuous improvement process, defect reduction, Six Sigma methodology
+critical chain, CCPM, critical chain project management, resource-focused project management, critical path buffer management
+
+# Agile Project Management
+scrum, scrum methodology, sprint, agile framework, scrum team
+sprint, sprint cycle, agile iteration, agile timebox, scrum sprint
+user story, agile story, feature request, product requirement, backlog item
+backlog, product backlog, sprint backlog, task backlog, work items backlog
+sprint retrospective, agile retrospective, sprint review, project reflection, sprint feedback session
+scrum board, task board, agile board, sprint board, workflow board
+scrum master, agile facilitator, agile coach, sprint coordinator, scrum coordinator
+product owner, PO, product manager, customer liaison, product lead
+daily standup, daily scrum, scrum meeting, team check-in, daily huddle
+agile manifesto, agile principles, agile values, iterative approach, flexibility in projects
+
+# Project Scheduling and Time Management
+project schedule, project timeline, project plan, time plan, project timeline
+time management, schedule control, time control, project timing, time allocation
+timeline, Gantt chart, project timeline, time projection, schedule visualization
+deadline, due date, target date, project end date, project milestone
+milestone, key event, project checkpoint, project marker, major task completion
+task dependency, task relationship, task link, task interdependency, sequential task
+timebox, time-bound activity, time-limited task, time frame, sprint
+lag, lead time, time delay, schedule lag, delay in timeline
+project buffer, schedule buffer, time contingency, slack time, schedule padding
+crashing, schedule crashing, time compression, fast tracking, accelerated scheduling
+
+# Risk Management
+risk, potential issue, project threat, uncertainty, project hazard
+risk management, risk control, risk assessment, risk mitigation, risk monitoring
+risk analysis, risk assessment, risk evaluation, risk identification, risk ranking
+contingency plan, risk response plan, backup plan, emergency plan, fallback strategy
+risk mitigation, risk reduction, threat minimization, risk handling, risk avoidance
+risk register, risk log, risk documentation, risk list, threat register
+risk probability, likelihood of risk, probability of occurrence, risk likelihood, threat probability
+risk impact, consequence of risk, effect of risk, severity of impact, project disruption
+risk tolerance, risk appetite, acceptable risk, risk threshold, risk acceptance
+risk avoidance, risk elimination, risk prevention, issue avoidance, threat elimination
+
+# Budgeting and Cost Management
+project budget, project financial plan, project costs, cost estimation, budget plan
+cost management, budget control, cost control, project expense management, cost containment
+cost estimation, cost prediction, budget forecasting, financial estimation, cost calculation
+budget allocation, cost allocation, financial distribution, budget distribution, resource budgeting
+cost variance, budget deviation, financial variance, cost overrun, under-budgeting
+earned value management, EVM, earned value analysis, project performance evaluation, value-based budgeting
+budget baseline, financial baseline, project budget limit, initial budget, planned budget
+cost-benefit analysis, CBA, financial analysis, ROI analysis, project value analysis
+capital expenditure, capex, project investment, project capital, upfront project costs
+operational expenditure, opex, ongoing project costs, recurring costs, project operational expenses
+
+# Communication Management
+project communication, stakeholder communication, communication plan, information sharing, communication strategy
+stakeholder management, stakeholder engagement, stakeholder involvement, stakeholder relations, client communication
+communication matrix, information dissemination, communication framework, contact matrix, project communication framework
+project reporting, status report, project update, project summary, progress report
+meeting minutes, project minutes, meeting records, project notes, discussion records
+status meeting, progress meeting, update meeting, project check-in, project review meeting
+communication channel, information pathway, message medium, communication route, communication platform
+reporting tools, project dashboard, project reporting system, project visualization tools, reporting software
+feedback loop, communication feedback, information loop, reporting feedback, continuous feedback
+stakeholder presentation, project presentation, executive summary, project briefing, client presentation
+
+# Change Management
+change management, change control, change process, project change, change implementation
+change request, modification request, change order, project adjustment, scope change
+change control board, CCB, change authority, approval board, change management board
+impact analysis, change impact, risk assessment, consequences analysis, effect on project
+change approval, modification approval, change authorization, project modification sign-off, change endorsement
+change log, change register, change documentation, project change log, modification log
+scope creep, uncontrolled change, scope expansion, project drift, scope enlargement
+change freeze, scope freeze, change lock, modification halt, project freeze
+version control, revision management, project versioning, document version control, change tracking
+configuration management, config management, system configuration, version management, configuration control
+
+# Project Closure
+project closure, project completion, project finalization, project wind-up, project ending
+project handover, project transfer, project delivery, client handoff, project closeout
+lessons learned, post-project review, project reflection, final evaluation, post-mortem analysis
+project review, completion review, final assessment, project evaluation, post-project assessment
+final report, project summary, completion report, closure report, final documentation
+sign-off, project approval, project completion sign-off, final approval, project acceptance
+closeout meeting, final meeting, completion meeting, project wrap-up meeting, closure session
+project archive, document archiving, project records, project data storage, final documentation storage
+project feedback, client feedback, stakeholder feedback, completion feedback, project evaluation feedback
+project debrief, project conclusion, team debrief, final meeting, project wrap-up
