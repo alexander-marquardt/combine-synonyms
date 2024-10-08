@@ -1,137 +1,36 @@
-# Recruitment and Talent Acquisition Terms
-recruitment, hiring, talent acquisition, staffing, employment
+# In some cases, one-way synonyms may be more appropriate. One-way synonyms expand only in one direction.
+# Example of a one-way synonym rule:
+# recruitment => recruitment, hiring, talent acquisition
+# This ensures 'recruitment' will expand to related terms, but 'hiring' or 'talent acquisition' will not expand to 'recruitment.'
+
+# One-way synonym rules detected:
+recruitment => recruitment, hiring, talent acquisition, staffing, employment
+onboarding => onboarding, orientation, induction, new hire process, welcome process
+headhunting => headhunting, talent scouting, executive search, talent search, recruitment firm
+performance management => performance management, employee performance, job performance, performance evaluation, appraisals
+employee retention => employee retention, staff retention, workforce stability, talent retention, employee loyalty
+HRIS => HRIS, human resources information system, HR technology, HR software, employee database
+HR strategy => HR strategy, human resources strategy, workforce strategy, talent strategy, staffing strategy
+
+# Standard synonyms:
 job posting, job vacancy, open position, job opening, role vacancy
 candidate, applicant, job seeker, interviewee, potential hire
 resume, CV, curriculum vitae, application, professional profile
-interview, job interview, screening, assessment, evaluation
-onboarding, orientation, induction, new hire process, welcome process
-headhunting, talent scouting, executive search, talent search, recruitment firm
-recruitment pipeline, talent pool, candidate database, applicant tracking, candidate sourcing
-job description, role specification, position requirements, job responsibilities, key qualifications
-
-# Employee Relations and Engagement
 employee relations, workplace relations, staff relations, team relations, internal communication
-employee engagement, job satisfaction, workforce engagement, staff morale, team motivation
-employee feedback, staff input, performance feedback, job satisfaction survey, employee survey
-conflict resolution, dispute resolution, grievance management, mediation, employee counseling
-team building, staff bonding, collaboration, group activities, team cohesion
-corporate culture, workplace culture, organizational culture, work environment, company values
-employee recognition, staff appreciation, rewards program, recognition program, employee awards
-workplace satisfaction, employee happiness, work-life balance, job contentment, staff well-being
-HR policies, human resources policies, company policies, employee handbook, workplace rules
-
-# Learning and Development (L&D)
 learning and development, L&D, employee training, staff training, skills development
-training program, development program, career development, professional growth, educational initiatives
-e-learning, online training, digital learning, virtual learning, learning management system (LMS)
-leadership development, management training, supervisor training, executive coaching, leadership skills
-upskilling, reskilling, cross-training, skill enhancement, talent development
-performance improvement, productivity improvement, efficiency enhancement, process improvement, capability building
-mentorship, coaching, mentoring program, career guidance, professional mentorship
-employee workshops, seminars, training sessions, educational events, development workshops
-career pathing, succession planning, talent pipeline, career progression, role advancement
-
-# Performance Management
-performance management, employee performance, job performance, performance evaluation, appraisals
 performance review, performance appraisal, employee assessment, staff evaluation, review process
 KPIs, key performance indicators, performance metrics, goal setting, objectives
-360-degree feedback, peer feedback, self-assessment, team evaluation, multi-source feedback
-performance improvement plan, PIP, corrective action plan, performance correction, employee development plan
-goal setting, target setting, objectives, measurable outcomes, performance benchmarks
-merit-based pay, performance-based pay, incentive compensation, bonus structure, achievement rewards
-performance incentives, employee bonuses, merit awards, incentive programs, recognition rewards
-annual review, mid-year review, quarterly review, performance check-in, progress evaluation
-
-# Compensation and Benefits
 compensation, employee compensation, salary, wages, earnings
 benefits, employee benefits, perks, compensation package, benefits program
 payroll, salary processing, pay management, payroll administration, wages disbursement
 health insurance, medical insurance, employee healthcare, wellness plan, health benefits
 pension plan, retirement plan, 401(k), retirement savings, pension contributions
-bonuses, employee bonuses, performance bonuses, incentive bonuses, achievement bonuses
-stock options, equity compensation, share-based compensation, profit-sharing, company stock plan
-leave benefits, paid time off, PTO, vacation days, sick leave, parental leave
-fringe benefits, non-cash benefits, company perks, employee rewards, work-life benefits
-wellness program, employee wellness, mental health support, workplace wellness, fitness incentives
-
-# Compliance and Labor Relations
 compliance, labor law compliance, employment law, workplace regulations, HR legal requirements
-labor relations, union relations, collective bargaining, union negotiations, worker representation
 employee rights, worker rights, labor rights, fair treatment, workplace fairness
-health and safety, occupational safety, workplace safety, OSHA compliance, employee safety
-diversity and inclusion, D&I, equal opportunity, affirmative action, workplace diversity
-anti-discrimination, workplace equality, anti-harassment, anti-bullying, inclusive workplace
-HR audits, labor law audits, compliance checks, regulatory audits, legal audits
-employee contracts, employment agreements, contract management, legal agreements, HR documentation
-code of conduct, ethics policy, workplace ethics, ethical guidelines, corporate ethics
-HR investigations, workplace investigations, grievance investigations, disciplinary process, employee misconduct
-
-# Employee Retention and Turnover
-employee retention, staff retention, workforce stability, talent retention, employee loyalty
-employee turnover, staff turnover, attrition rate, retention rate, employee departure
-exit interview, resignation interview, departure feedback, offboarding, termination interview
-voluntary resignation, employee resignation, employee quitting, employee departure, voluntary turnover
-retention strategies, retention initiatives, employee loyalty programs, retention bonuses, staff engagement programs
-workforce planning, headcount planning, staffing strategy, workforce strategy, human capital planning
-talent management, HR management, human capital management, workforce management, employee lifecycle management
-employee retention plan, loyalty strategy, engagement programs, retention tactics, staff retention efforts
-
-# HR Information Systems (HRIS)
-HRIS, human resources information system, HR technology, HR software, employee database
-HR analytics, workforce analytics, people analytics, data-driven HR, HR metrics
-HR dashboard, employee data dashboard, HR reports, HR data visualization, workforce reports
-timekeeping, time tracking, attendance management, shift scheduling, employee time management
-HR automation, HR digitalization, HR workflows, automated HR processes, HR tech tools
-payroll system, payroll software, compensation management, payroll tracking, payroll automation
-applicant tracking system (ATS), recruitment system, hiring software, talent management system, job applicant system
-learning management system (LMS), training platform, e-learning system, online training tools, development portal
-employee self-service, HR portal, self-service tools, employee portal, HR online platform
-HR records, employee files, digital records, personnel files, document management
-
-# HR Strategy and Planning
-HR strategy, human resources strategy, workforce strategy, talent strategy, staffing strategy
-workforce planning, human capital planning, workforce forecasting, headcount planning, talent forecasting
-talent management, talent retention, leadership pipeline, succession planning, talent development
-organizational design, organizational structure, company hierarchy, organizational chart, business structure
-change management, organizational change, transformation management, change initiatives, business transformation
-strategic workforce planning, future workforce planning, HR forecasting, long-term staffing, talent planning
-HR transformation, digital HR, agile HR, next-gen HR, HR innovation
-talent acquisition strategy, recruitment planning, hiring roadmap, sourcing strategy, headhunting approach
-employer branding, recruitment marketing, talent attraction, company reputation, employer of choice
-business partner model, HR business partner, HRBP, strategic HR, operational HR
-
-# HR Metrics and Analytics
-HR metrics, key HR metrics, workforce metrics, human capital metrics, HR KPIs
-employee turnover rate, staff retention rate, attrition rate, voluntary turnover, involuntary turnover
-time to hire, time to fill, recruitment speed, hiring timeline, hiring efficiency
-cost per hire, recruitment cost, hiring expenses, talent acquisition cost, cost efficiency
-employee engagement score, employee satisfaction index, staff morale, job satisfaction survey, engagement survey
-absenteeism rate, sick leave rate, employee attendance, absence rate, leave management
-HR analytics, people analytics, workforce analytics, data-driven HR, predictive HR
-talent analytics, recruitment analytics, hiring trends, retention analytics, workforce data
-performance metrics, productivity metrics, performance benchmarks, achievement goals, performance KPIs
-diversity metrics, D&I metrics, diversity ratio, equal opportunity statistics, inclusion score
-
-# HR Policies and Procedures
 HR policies, workplace policies, employment policies, company guidelines, human resources rules
-code of conduct, ethics policy, workplace rules, behavior guidelines, company code
-employee handbook, staff manual, policy manual, company handbook, workplace handbook
-attendance policy, absence policy, time-off policy, PTO policy, sick leave policy
+HR analytics, people analytics, workforce analytics, data-driven HR, HR metrics
+HR dashboard, employee data dashboard, HR reports, HR data visualization, workforce reports
+HR automation, HR digitalization, HR workflows, automated HR processes, HR tech tools
+HR transformation, digital HR, agile HR, next-gen HR, HR innovation
 workplace harassment policy, anti-harassment policy, sexual harassment policy, bullying policy, discrimination policy
-remote work policy, telecommuting policy, flexible work policy, hybrid work policy, work-from-home policy
-dress code, workplace dress code, appearance standards, employee attire policy, uniform policy
-disciplinary procedures, misconduct process, employee discipline, corrective action, warning process
-grievance procedure, complaint process, employee grievance, workplace dispute resolution, conflict management
-confidentiality policy, data privacy policy, employee privacy, personal information protection, non-disclosure agreement (NDA)
-
-# Employee Assistance and Support
 employee assistance, employee support, EAP, employee assistance program, workplace support
-mental health support, wellness support, emotional well-being, psychological assistance, counseling services
-work-life balance, flexible work, family-friendly policies, stress management, employee well-being
-financial wellness, retirement planning, financial counseling, savings plans, employee financial support
-career counseling, professional development, career advice, job coaching, development support
-crisis management, employee crisis support, critical incident response, trauma support, emergency assistance
-return to work programs, reintegration programs, post-injury support, employee rehabilitation, recovery programs
-childcare support, dependent care assistance, family support programs, parental support, family leave
-substance abuse support, addiction counseling, employee rehabilitation, recovery support, employee wellness program
-employee hotline, support hotline, employee feedback line, anonymous feedback, grievance line

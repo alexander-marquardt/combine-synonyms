@@ -1,136 +1,44 @@
-# Energy Generation Terms
-power plant, power station, generating station, generation facility
-solar farm, solar array, photovoltaic plant, PV plant
-wind farm, wind park, wind power plant, wind energy facility
-hydroelectric plant, hydro plant, hydroelectric power station, hydroelectric facility
-nuclear plant, nuclear power station, atomic plant, atomic energy facility
-thermal power station, fossil fuel plant, coal plant, coal-fired power station
-combined cycle plant, CCGT, combined cycle gas turbine
-biomass plant, biopower plant, biomass generation station
-geothermal plant, geothermal power plant, geothermal station
-tidal energy plant, tidal power station, ocean energy plant
-natural gas plant, gas-fired power station, gas turbine plant
-peaking plant, peaker plant, peak load plant, reserve power station
+# In some cases, one-way synonyms may be more appropriate. One-way synonyms expand only in one direction.
+# Example of a one-way synonym rule:
+# power plant => power plant, power station, generating station, generation facility
+# This ensures 'power plant' will expand to itself and related terms, but searching for 'power station' or 'generating station' will not expand to 'power plant.'
 
-# Renewable Energy Terms
-renewable energy, green energy, clean energy, sustainable energy, alternative energy
-solar power, solar energy, photovoltaic power, PV energy
-wind power, wind energy, aeolic energy, wind-generated electricity
-hydroelectric power, hydroelectric energy, hydropower, water-generated electricity
-biomass energy, bioenergy, biopower, organic energy generation
-geothermal energy, geothermal power, earth energy, thermal energy from the earth
-renewable energy source, renewable resource, green energy source
-energy transition, energy shift, green transition, sustainable transition
+# One-way synonym rules detected:
+power plant => power plant, power station, generating station, generation facility
+solar farm => solar farm, solar array, photovoltaic plant, PV plant
+wind farm => wind farm, wind park, wind power plant, wind energy facility
+hydroelectric plant => hydroelectric plant, hydro plant, hydroelectric power station, hydroelectric facility
+nuclear plant => nuclear plant, nuclear power station, atomic plant, atomic energy facility
+thermal power station => thermal power station, fossil fuel plant, coal plant, coal-fired power station
+combined cycle plant => combined cycle plant, CCGT, combined cycle gas turbine
+biomass plant => biomass plant, biopower plant, biomass generation station
+geothermal plant => geothermal plant, geothermal power plant, geothermal station
+tidal energy plant => tidal energy plant, tidal power station, ocean energy plant
+natural gas plant => natural gas plant, gas-fired power station, gas turbine plant
+peaking plant => peaking plant, peaker plant, peak load plant, reserve power station
 
-# Transmission and Distribution Terms
-transmission lines, power lines, high-voltage lines, HV lines, electrical transmission lines
-distribution network, distribution grid, power grid, electrical grid, utility grid
-substation, switchyard, switching station, distribution substation, power substation
-transformer, transformer station, transformer substation, electrical transformer, voltage transformer
+renewable energy => renewable energy, green energy, clean energy, sustainable energy, alternative energy
+solar power => solar power, solar energy, photovoltaic power, PV energy
+wind power => wind power, wind energy, aeolic energy, wind-generated electricity
+hydroelectric power => hydroelectric power, hydroelectric energy, hydropower, water-generated electricity
+biomass energy => biomass energy, bioenergy, biopower, organic energy generation
+geothermal energy => geothermal energy, geothermal power, earth energy, thermal energy from the earth
+
+# Standard synonyms:
 power cables, electrical cables, transmission cables, high-voltage cables, conductor lines
 smart grid, intelligent grid, advanced metering infrastructure, AMI grid
-distribution transformer, step-down transformer, step-up transformer, voltage regulator transformer
 grid connection, grid interconnection, grid coupling, utility grid connection
-line losses, transmission losses, distribution losses, power losses
-grid stability, grid reliability, network stability, system reliability
-
-# Equipment and Infrastructure Terms
-turbine, generator, alternator, dynamo, rotor
-circuit breaker, switchgear, electrical switch, disconnect switch, power switch
-capacitor, condenser, electric capacitor, energy storage capacitor
-load center, distribution center, control room, power distribution unit
-relay, protection relay, safety relay, overload relay, thermal relay
-transformer oil, dielectric fluid, insulating oil, transformer insulation
-insulator, electrical insulator, isolator, high-voltage insulator, porcelain insulator
 voltage regulator, AVR, automatic voltage regulator, voltage stabilizer
-frequency converter, frequency inverter, variable frequency drive, VFD, AC drive
 battery storage, energy storage system, ESS, battery energy storage, BESS
-distribution feeder, power feeder, service line, primary feeder, secondary feeder
-high-voltage transformer, HV transformer, step-up transformer, power transformer
-
-# Measurement and Monitoring Terms
+distribution transformer, step-up transformer, step-down transformer, power transformer
 smart meter, digital meter, electric meter, energy meter, power meter
 kWh meter, kilowatt-hour meter, energy consumption meter, electricity meter
-load forecast, demand forecast, energy forecast, consumption forecast, load projection
-SCADA, supervisory control and data acquisition, SCADA system
-RTU, remote terminal unit, telemetry unit, data acquisition unit
-PLC, programmable logic controller, automation controller, industrial controller
-AMI, advanced metering infrastructure, smart grid meter, metering system
-energy monitoring, power monitoring, electricity monitoring, consumption tracking, load monitoring
-
-# Electrical Terms
 current, electric current, amperage, current flow, current intensity
-voltage, electric potential, potential difference, voltage level, electromotive force
 resistance, electrical resistance, impedance, opposition to current, resistivity
 reactive power, imaginary power, VAR, volt-ampere reactive, reactive load
 real power, active power, true power, actual power, useful power
 frequency, hertz, Hz, cycle per second, alternating current frequency
 power factor, load factor, capacity factor, efficiency ratio, power efficiency
-ohms law, current law, electrical law, voltage law, resistance law
-conductance, conductivity, electrical conductance, admittance, electrical conductivity
-capacitance, capacitive reactance, electrical capacitance, storage capacity
-inductance, inductive reactance, magnetic inductance, coil inductance
-impedance, electrical impedance, opposition to current, complex resistance, AC resistance
-reactance, capacitive reactance, inductive reactance, opposition to current change
-
-# Regulatory and Compliance Terms
-regulation, policy, compliance, energy regulation, electricity regulation
-grid code, grid regulation, network code, technical standards, utility regulation
-energy regulation, electricity regulation, power regulation, utility oversight
-renewable energy certificate, green certificate, REC, energy credit, sustainability certificate
-carbon credit, emission permit, carbon offset, GHG credit, carbon allowance
-feed-in tariff, FIT, renewable tariff, energy buy-back, renewable compensation
-net metering, energy buy-back, excess energy compensation, grid-tied compensation
-energy market, electricity market, power market, deregulated market, competitive energy market
-balancing market, ancillary services market, capacity market, reserve market
-capacity auction, capacity trading, power capacity auction, capacity bidding
-power purchase agreement, PPA, energy contract, renewable PPA, corporate PPA
-energy trading, power trading, electricity trading, wholesale trading, retail energy trading
-
-# Corporate Acronyms and Terminology
-energy company, utility, energy supplier, electric company
-TSO, transmission system operator, grid operator, transmission operator
-DSO, distribution system operator, distribution grid operator, utility operator
-PPA, power purchase agreement, energy contract, electricity contract
-IPP, independent power producer, non-utility generator, private power producer
-O&M, operation and maintenance, plant operation, asset maintenance
-EPC, engineering procurement and construction, project development, plant construction
-ESG, environmental social governance, sustainability criteria, ethical management
-CSR, corporate social responsibility, social responsibility, environmental responsibility
-RECs, renewable energy credits, green certificates, sustainability credits
-EU ETS, European Union Emission Trading System, EU carbon trading, emission trading market
-EEX, European Energy Exchange, energy trading platform, power market exchange
-
-# Energy Efficiency and Conservation Terms
 energy efficiency, energy conservation, demand-side management, energy saving, energy reduction
-demand response, peak shaving, load shedding, load management, demand management
-energy audit, energy assessment, consumption audit, energy efficiency evaluation
-smart thermostat, programmable thermostat, energy-saving thermostat, temperature control system
-LED lighting, energy-saving lights, low-energy lighting, efficient lighting
-HVAC, heating ventilation and air conditioning, climate control system, temperature regulation system
-building insulation, thermal insulation, energy-efficient insulation, heat retention, cold air retention
-energy performance, building performance, energy efficiency rating, energy consumption rating
-retrofit, energy retrofit, building upgrade, efficiency upgrade, energy renovation
-sustainable building, green building, eco-friendly building, energy-efficient building, LEED-certified building
-
-# Environmental and Sustainability Terms
-carbon footprint, CO2 emissions, carbon emissions, greenhouse gas emissions, GHG emissions
-greenhouse gas, GHG, emissions, atmospheric emissions, global warming gases
-decarbonization, low-carbon, zero-emission, carbon reduction, fossil fuel phase-out
-sustainability, sustainable development, green development, eco-friendly practices
-environmental impact, ecological impact, eco-friendly, green impact, environmental footprint
-renewable energy target, green energy target, sustainable energy goal, decarbonization goal
-climate change, global warming, climate crisis, climate emergency, environmental crisis
 carbon capture, carbon sequestration, CO2 capture, carbon storage, greenhouse gas removal
-carbon neutrality, net-zero, zero emissions, carbon-free, climate-neutral
-carbon offsetting, carbon credits, emission offsets, GHG offset, climate mitigation
-
-# Safety and Reliability Terms
 fault, outage, blackout, brownout, power failure, service interruption
-reliability, system reliability, grid reliability, network stability, service dependability
-redundancy, backup system, failover system, emergency backup, contingency system
-power surge, voltage surge, transient surge, electrical surge, current spike
-electrical safety, worker safety, PPE, personal protective equipment, safety procedures
-arc flash, short circuit, overload, electrical fault, equipment failure
-load shedding, rolling blackout, controlled outage, power rationing, emergency load reduction
-maintenance, preventive maintenance, scheduled maintenance, routine maintenance, system upkeep
